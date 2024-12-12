@@ -9,9 +9,9 @@ function denied() {
 
 $filename = "data.txt";
 
-if (isset($_GET['id_ID'])) { 
+if (isset($_GET['jic'])) { 
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['id_ID']);
+    $target_string = strtolower($_GET['jic']);
     foreach ($lines as $item) {
         if (strtolower($item) === $target_string) {
             $BRAND = strtoupper($target_string);
